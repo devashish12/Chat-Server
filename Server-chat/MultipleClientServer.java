@@ -6,7 +6,7 @@ public static void main(String args[]) {
 	Socket s=null;
 	System.out.println("server is listening");
 	try {
-		ss=new ServerSocket(3333);
+		ss=new ServerSocket(4000);
 	}catch(Exception e) {System.out.println("Srever error");}
 	while(true) {
 		try {

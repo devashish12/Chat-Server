@@ -3,7 +3,7 @@ import java.io.*;
 public class ServerExample {
 
 	public static void main(String[] args) throws Exception {
-	ServerSocket ss=new ServerSocket(3333);
+	ServerSocket ss=new ServerSocket(4000);
 	Socket s=ss.accept();
 	DataInputStream dis=new DataInputStream(s.getInputStream());
 	DataOutputStream dos=new DataOutputStream(s.getOutputStream());
